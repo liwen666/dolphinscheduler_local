@@ -30,4 +30,9 @@ public class EncryptionUtilsTest {
         Assert.assertEquals(EncryptionUtils.getMd5(null), EncryptionUtils.getMd5(""));
     }
 
+    @Test
+    public void entry() {
+        String md5 = EncryptionUtils.getMd5("123456");
+        System.out.println(md5);
+    }
 }
