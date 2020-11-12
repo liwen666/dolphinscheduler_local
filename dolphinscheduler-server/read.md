@@ -11,6 +11,8 @@ localhost:8888
 localhost:8888
 admin/dolphinscheduler123
 
+
+
     MasterServer         ----- master服务
     WorkerServer         ----- worker服务
     LoggerServer         ----- logger服务
@@ -21,3 +23,7 @@ mysql> CREATE DATABASE dolphinscheduler DEFAULT CHARACTER SET utf8 DEFAULT COLLA
 mysql> GRANT ALL PRIVILEGES ON dolphinscheduler.* TO '{user}'@'%' IDENTIFIED BY '{password}';
 mysql> GRANT ALL PRIVILEGES ON dolphinscheduler.* TO '{user}'@'localhost' IDENTIFIED BY '{password}';
 mysql> flush privileges;
+
+
+
+服务启动
